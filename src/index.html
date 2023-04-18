@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>XPlore</title>
+  </head>
+  <body>
+    <!-- Main part -->
+    <section class="main-structure">
+      <!-- header -->
+      <header>
+        <a href="#">
+          <div class="logo">Xplore</div>
+        </a>
+        <div class="menu-logo"></div>
+      </header>
+      <!-- content -->
+      <div class="content">
+        <video
+          class="active"
+          src="/src/videos/explore.mp4"
+          autoplay
+          muted
+          loop
+        ></video>
+        <video src="/src/videos/dance.mp4" autoplay muted loop></video>
+        <video src="/src/videos/music.mp4" autoplay muted loop></video>
+        <video src="/src/videos/painting.mp4" autoplay muted loop></video>
+        <video src="/src/videos/vr.mp4" autoplay muted loop></video>
+        <div class="video-overlay"></div>
+        <section class="text-description">
+          <h1>Explore new</h1>
+          <h2>Adventure and imagination</h2>
+          <p>
+            Join us for a fun-filled adventure this school holiday and explore
+            the world of music, dance, painting, virtual reality, and new
+            experiences that will ignite your creativity and spark your
+            imagination!
+          </p>
+          <a href="#">Explore</a>
+        </section>
+      </div>
+      <!-- footer -->
+      <footer>
+        <a href="#"><img src="/src/icons/facebook.svg" alt="facebook" /></a>
+        <a href="#"><img src="/src/icons/instagram.svg" alt="instagram" /></a>
+        <a href="#"><img src="/src/icons/twitter.svg" alt="twitter" /></a>
+        <a href="#"><img src="/src/icons/youtube.svg" alt="twitter" /></a>
+      </footer>
+    </section>
+
+    <!-- Side menu -->
+    <section class="aside-menu">
+      <a href="#"><span>Explore</span></a
+      ><a href="#"><span>Dance</span></a
+      ><a href="#"><span>Music</span></a
+      ><a href="#"><span>Painting</span></a
+      ><a href="#"><span>VR</span></a>
+    </section>
+
+    <script src="/src/data/content.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
