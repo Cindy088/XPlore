@@ -104,7 +104,7 @@ body {
 .main-structure header .menu-logo {
   width: var(--header-desktop-toggle-width);
   height: var(--header-desktop-toggle-width);
-  background: url("/src/icons/menu.svg");
+  background: url("/icons/menu.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: var(--header-desktop-toggle-width);
@@ -118,7 +118,7 @@ body {
 }
 
 .main-structure header .menu-logo.active {
-  background: url("/src/icons/close.svg");
+  background: url("/icons/close.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: var(--header-desktop-toggle-width);
