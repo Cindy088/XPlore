@@ -78,6 +78,7 @@ body {
   transition: 0.5s;
   transform: perspective(5000px) translateX(0px) translateY(0px) translateZ(0px)
     rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  overflow: hidden;
 }
 
 .main-structure.active {
